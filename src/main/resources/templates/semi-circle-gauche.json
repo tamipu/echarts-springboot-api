@@ -3,8 +3,7 @@
     "trigger": "item"
   },
   "legend": {
-    "top": "5%",
-    "left": "center"
+    "show": false
   },
   "series": [
     {
@@ -13,8 +12,26 @@
       "radius": ["40%", "70%"],
       "center": ["50%", "70%"],
       "startAngle": 180,
-      "endAngle": 360,
-      "data": []
+      "endAngle": 0,
+      "data": [
+        { "value": 1048, "name": "Search Engine" },
+        { "value": 735, "name": "Direct" },
+        { "value": 580, "name": "Email" },
+        { "value": 484, "name": "Union Ads" }
+      ]
+    },
+    {
+      "name": "Nested Chart",
+      "type": "pie",
+      "radius": ["20%", "40%"],
+      "center": ["50%", "70%"],
+      "startAngle": 180,
+      "endAngle": 0,
+      "data": [
+        { "value": 100, "name": "Nested Data 1" },
+        { "value": 200, "name": "Nested Data 2" },
+        { "value": 300, "name": "Nested Data 3" }
+      ]
     }
   ]
 }

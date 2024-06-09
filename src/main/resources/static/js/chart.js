@@ -32,7 +32,7 @@ function fetchAndRenderChart(elementId, templateName, chartName, processSeries) 
 }
 
 function roundChartProcessSeries(seriesData) {
-    const names = ["Search Engine", "Direct", "Email", "Union Ads", "Video Ads"];
+    const names = ["Search Engine", "Direct", "Email", "Union Ads"];
     return seriesData[0].data.map((value, index) => ({
         value: value,
         name: names[index]

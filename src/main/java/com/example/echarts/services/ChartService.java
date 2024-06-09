@@ -58,7 +58,7 @@ public class ChartService {
                     new Serie("Series 2", Arrays.asList(80, 30, 50, 10, 10, 70))
             );
             case SEMI_CIRCLE_GAUCHE -> List.of(
-                    new Serie("Access From", Arrays.asList(1048, 735, 580, 484, 300))
+                    new Serie("Access From", Arrays.asList(1048, 735, 580, 484))
             );
             case STACKED_COLUMN -> Arrays.asList(
                     new Serie("A", Arrays.asList(32, 40, 35, 50, 49, 60)),
