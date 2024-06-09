@@ -94,26 +94,17 @@ public class ChartService {
                 );
             }
             case BOXPLOT -> Arrays.asList(
-                    new Serie("box", Arrays.asList(54, 66, 69, 75, 88)),
-                    new Serie("box", Arrays.asList(43, 65, 69, 76, 81)),
-                    new Serie("box", Arrays.asList(31, 39, 45, 51, 59)),
-                    new Serie("box", Arrays.asList(39, 46, 55, 65, 71)),
-                    new Serie("box", Arrays.asList(29, 31, 35, 39, 44)),
-                    new Serie("box", Arrays.asList(29, 31, 35, 39, 44)),
-                    new Serie("box", Arrays.asList(29, 31, 35, 39, 44)),
-                    new Serie("box", Arrays.asList(29, 31, 35, 39, 44)),
-                    new Serie("box", Arrays.asList(29, 31, 35, 39, 44)),
-                    new Serie("box", Arrays.asList(29, 31, 35, 39, 44)),
-                    new Serie("outliers", List.of(69)),
-                    new Serie("outliers", List.of(69)),
-                    new Serie("outliers", List.of(45)),
-                    new Serie("outliers", List.of(55)),
-                    new Serie("outliers", List.of(35)),
-                    new Serie("outliers", List.of(35)),
-                    new Serie("outliers", List.of(35)),
-                    new Serie("outliers", List.of(35)),
-                    new Serie("outliers", List.of(35)),
-                    new Serie("outliers", List.of(35))
+                    new Serie("Cat1", Arrays.asList(54, 66, 69, 75, 88)),
+                    new Serie("Cat1", Arrays.asList(43, 65, 69, 76, 81)),
+                    new Serie("Cat1", Arrays.asList(31, 39, 45, 51, 59)),
+                    new Serie("Cat1", Arrays.asList(39, 46, 55, 65, 71)),
+                    new Serie("Cat1", Arrays.asList(29, 31, 35, 39, 44)),
+                    new Serie("Cat1", Arrays.asList(29, 31, 35, 39, 44)),
+                    new Serie("Cat1", Arrays.asList(29, 31, 35, 39, 44)),
+                    new Serie("Cat1", Arrays.asList(29, 31, 35, 39, 44)),
+                    new Serie("Cat1", Arrays.asList(29, 31, 35, 39, 44)),
+                    new Serie("Cat1", Arrays.asList(29, 31, 35, 39, 44))
+
             );
 
             default -> {

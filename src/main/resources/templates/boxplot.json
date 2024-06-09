@@ -7,24 +7,17 @@
   },
   "xAxis": {
     "type": "category",
-    "data": ["Category 1", "Category 2", "Category 3"],
+    "data": ["Cat1", "Cat2", "Cat3"],
     "boundaryGap": true,
-    "nameGap": 30,
     "splitArea": {
       "show": false
-    },
-    "axisLabel": {
-      "formatter": "Category {value}"
     },
     "splitLine": {
       "show": false
     }
   },
   "yAxis": {
-    "type": "value",
-    "splitArea": {
-      "show": true
-    }
+    "type": "value"
   },
   "series": [
     {

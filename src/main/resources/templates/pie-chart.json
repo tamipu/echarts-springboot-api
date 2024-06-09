@@ -10,6 +10,7 @@
   "legend": {
     "orient": "vertical",
     "left": "left",
+    "show": false,
     "data": ["Category A", "Category B", "Category C", "Category D"]
   },
   "series": [
