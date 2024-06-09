@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "name": "",
+      "type": "scatter",
+      "mode": "lines",
+      "x": ["10:00", "12:00", "14:00", "16:00", "18:00"],
+      "y": [30, 40, 35, 45, 49],
+      "line": {
+        "shape": "spline"
+      }
+    },
+    {
+      "name": "",
+      "type": "scatter",
+      "mode": "lines",
+      "x": ["10:00", "12:00", "14:00", "16:00", "18:00"],
+      "y": [50, 50, 50, 50, 50],
+      "fill": "tozeroy"
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "YIELDS",
+      "xref": "paper",
+      "x": 1.5,
+      "y": 1.2,
+      "yref": "paper",
+      "yanchor": "bottom",
+      "align": "center",
+      "font": {
+        "color": "white",
+        "weight": "bold",
+        "size": 15
+      }
+    },
+    "annotations": [
+      {
+        "text": "PER SUBPANEL",
+        "xref": "paper",
+        "x": 0.5,
+        "y": 1,
+        "yref": "paper",
+        "yanchor": "bottom",
+        "showarrow": false,
+        "align": "center",
+        "font": {
+          "color": "white",
+          "size": 10
+        }
+      }
+    ],
+    "xaxis": {
+      "type": "category",
+      "categories": ["10:00", "12:00", "14:00", "16:00", "18:00"],
+      "showgrid": false,
+      "zeroline": false,
+      "tickmode": "array",
+      "tickvals": [0, 1, 2, 3, 4],
+      "ticktext": ["10:00", "12:00", "14:00", "16:00", "18:00"],
+      "tickfont": {
+        "color": "white"
+      }
+    },
+    "yaxis": [
+      {
+        "title": "Percent",
+        "titlefont": {"size": 14},
+        "ticktext": [0, 25, 50, 75, 100],
+        "tickmode": "array",
+        "tickfont": {
+          "color": "white"
+        },
+        "position": 0.1
+      },
+      {
+        "title": "PPM",
+        "titlefont": {"size": 14},
+        "tickvals": [0, 10000, 20000, 30000, 40000, 50000],
+        "ticktext": [0, 10000, 20000, 30000, 40000, 50000],
+        "tickmode": "array",
+        "tickfont": {
+          "color": "white"
+        }
+      }
+    ],
+    "margin": {"t": 40, "b": 40, "l": 40, "r": 0},
+    "paper_bgcolor": "#322e2e",
+    "plot_bgcolor": "#322e2e",
+    "legend": {
+      "showlegend": false
+    }
+  }
+}

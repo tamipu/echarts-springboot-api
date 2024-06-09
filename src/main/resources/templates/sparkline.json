@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "type": "scatter",
+      "x": ["10:00", "12:00", "14:00", "16:00", "18:00"],
+      "y": [],
+      "line": {
+        "color": "#1f77b4",
+        "width": 2
+      },
+      "marker": {
+        "size": 4,
+        "color": "#1f77b4"
+      }
+    }
+  ],
+  "layout": {
+    "width": 500,
+    "height": 90,
+    "title": {
+      "text": "",
+      "xref": "paper",
+      "x": 0.5,
+      "xanchor": "center"
+    },
+    "xaxis": {
+      "type": "category",
+      "categories": ["10:00", "12:00", "14:00", "16:00", "18:00"],
+      "tickfont": {
+        "color": "white"
+      },
+      "position": "top",
+      "showgrid": false,
+      "showticklabels": false,
+      "zeroline": false
+    },
+    "yaxis": {
+      "tickAmount": 1,
+      "min": 0,
+      "gridcolor": "white",
+      "tickfont": {
+        "color": "white"
+      },
+      "title": {
+        "text": "Position",
+        "font": {
+          "color": "white",
+          "angle": -90
+        }
+      },
+      "zeroline": false
+    },
+    "margin": {
+      "t": 10,
+      "b": 20,
+      "l": 50,
+      "r": 50
+    },
+    "showlegend": false,
+    "hovermode": false,
+    "plot_bgcolor": "#322e2e",
+    "paper_bgcolor": "#322e2e"
+  }
+}

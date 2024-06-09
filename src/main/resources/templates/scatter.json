@@ -1,0 +1,18 @@
+{
+  "tooltip": {
+    "trigger": "axis"
+  },
+  "xAxis": {
+    "type": "category"
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "name": "Scatter",
+      "type": "scatter",
+      "data": []
+    }
+  ]
+}

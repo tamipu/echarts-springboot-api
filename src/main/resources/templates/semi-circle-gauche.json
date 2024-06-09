@@ -1,0 +1,20 @@
+{
+  "tooltip": {
+    "trigger": "item"
+  },
+  "legend": {
+    "top": "5%",
+    "left": "center"
+  },
+  "series": [
+    {
+      "name": "Access From",
+      "type": "pie",
+      "radius": ["40%", "70%"],
+      "center": ["50%", "70%"],
+      "startAngle": 180,
+      "endAngle": 360,
+      "data": []
+    }
+  ]
+}

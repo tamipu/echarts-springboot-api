@@ -1,0 +1,36 @@
+body{
+    background-color: #9f9f9f;
+    font-family: Arial, sans-serif;
+}
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #322e2e;
+    padding: 10px;
+}
+.menu-item {
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ecf0f1;
+}
+.chart-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+.chart-item {
+    background-color: #322e2e;
+    padding: 10px;
+}
+.chart {
+    width: 100%;
+    height: 350px;
+}
+
+.y-axis-title {
+    transform: rotate(-90deg);
+}

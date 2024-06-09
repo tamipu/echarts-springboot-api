@@ -1,0 +1,19 @@
+{
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    }
+  },
+  "legend": {
+    "data": []
+  },
+  "xAxis": {
+    "type": "category",
+    "data": []
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": []
+}
