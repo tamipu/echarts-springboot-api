@@ -50,8 +50,7 @@ public class ChartService {
                     new Serie("Team A", List.of(44)),
                     new Serie("Team B", List.of(55)),
                     new Serie("Team C", List.of(13)),
-                    new Serie("Team D", List.of(43)),
-                    new Serie("Team E", List.of(22))
+                    new Serie("Team D", List.of(13))
             );
             case RADAR -> Arrays.asList(
                     new Serie("Series 1", Arrays.asList(70, 10, 80, 40, 100, 20)),
@@ -68,9 +67,9 @@ public class ChartService {
                     new Serie("E", Arrays.asList(15, 10, 5, 15, 22, 32))
             );
             case LINE_AREA -> Arrays.asList(
-                    new Serie("Good", Arrays.asList(1, 4, 2, 51, 42)),
-                    new Serie("Good operator", Arrays.asList(50000, 50000, 50000, 50000, 50000)),
-                    new Serie("PPM", Arrays.asList(10000, 20000, 25000, 32000, 38000))
+                    new Serie("Area A", Arrays.asList(120, 132, 101, 134, 90, 230)),
+                    new Serie("Area B", Arrays.asList(330, 330, 330, 330, 330, 330)),
+                    new Serie("Area C", Arrays.asList(150, 232, 201, 154, 190, 330))
             );
             case SPARKLINE -> {
                 List<Integer> data = Arrays.asList(10, 15, 20, 25, 30);

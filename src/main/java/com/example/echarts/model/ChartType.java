@@ -11,9 +11,9 @@ public enum ChartType {
     RADAR_CHART("radar-chart"),
     LINE_AREA("line-area"),
     SEMI_CIRCLE_GAUCHE("semi-circle-gauche"),
-    STACKED_COLUMN("stacked-column.json"),
+    STACKED_COLUMN("stacked-column"),
     BUBBLE_CHART("bubble-chart"),
-    SPARKLINE("sparkline.json"),
+    SPARKLINE("sparkline"),
     SPARKLINENG("sparklineNG"),
     SCATTER("scatter"),
     BOXPLOT("boxplot");

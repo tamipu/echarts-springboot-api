@@ -6,7 +6,8 @@
     }
   },
   "legend": {
-    "data": []
+    "data": [],
+    "show": false
   },
   "xAxis": {
     "type": "category",
