@@ -1,4 +1,11 @@
 {
+  "title": {
+    "text": "Scatter Chart",
+    "left": "center",
+    "textStyle": {
+      "color": "white"
+    }
+  },
   "tooltip": {
     "trigger": "axis"
   },

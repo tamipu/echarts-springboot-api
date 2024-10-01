@@ -1,7 +1,10 @@
 {
   "title": {
-    "text": "",
-    "left": "center"
+    "text": "Line-area Chart",
+    "left": "center",
+    "textStyle": {
+      "color": "white"
+    }
   },
   "tooltip": {
     "trigger": "axis"

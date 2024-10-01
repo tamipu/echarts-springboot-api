@@ -1,4 +1,11 @@
 {
+  "title": {
+    "text": "Boxplot Chart",
+    "left": "center",
+    "textStyle": {
+      "color": "white"
+    }
+  },
   "tooltip": {
     "trigger": "item",
     "axisPointer": {

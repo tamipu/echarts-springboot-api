@@ -1,7 +1,10 @@
 {
   "title": {
-    "text": "Pie Chart Example",
-    "left": "center"
+    "text": "Pie Chart",
+    "left": "center",
+    "textStyle": {
+      "color": "white"
+    }
   },
   "tooltip": {
     "trigger": "item",

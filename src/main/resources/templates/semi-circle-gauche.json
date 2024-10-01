@@ -1,4 +1,11 @@
 {
+  "title": {
+    "text": "Semi-circle Chart",
+    "left": "center",
+    "textStyle": {
+      "color": "white"
+    }
+  },
   "tooltip": {
     "trigger": "item"
   },
